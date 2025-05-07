@@ -1,4 +1,9 @@
 /* Navigation Bar */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -35,6 +40,7 @@
     color: white;
     font-size: 18px;
     font-weight: bold;
+    font-family: "Comfortaa", sans-serif;
     transition: color 0.3s ease;
 }
 
@@ -92,6 +98,7 @@
 .main-title {
     font-size: 48px;
     font-weight: bold;
+    font-family: "Comfortaa", sans-serif;
     color: #080808;
     text-align: left;
     flex: 1;
@@ -101,11 +108,13 @@
     font-size: 58px;
     color: #867203;
     font-weight: bold;
+    font-family: "Comfortaa", sans-serif;
 }
 
 /* Sub Title (Right Side) */
 .sub-title {
     font-size: 28px;
+    font-family: "Comfortaa", sans-serif;
     color: #000000;
     text-align: right;
     flex: 1;
@@ -125,6 +134,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+    font-family: "Comfortaa", sans-serif;
 }
 
 .search-btn {
@@ -231,11 +241,13 @@
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 10px;
+    font-family: "Comfortaa", sans-serif;
     color: #5b2901;
 }
 
 .equipment-caption {
     font-style: italic;
+    font-family: "Comfortaa", sans-serif;
     color: #6e5a27;
     font-size: 38px;
     margin-bottom: 10px;
@@ -243,6 +255,7 @@
 
 .equipment-details {
     font-size: 26px;
+    font-family: "Comfortaa", sans-serif;
     color: #151313;
 }
 
@@ -253,6 +266,7 @@
     border: none;
     padding: 10px 15px;
     font-size: 24px;
+    font-family: "Comfortaa", sans-serif;
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -283,6 +297,7 @@
 .gallery-title {
   text-align: center;
   font-size: 36px;
+  font-family: "Comfortaa", sans-serif;
   margin-bottom: 20px;
   
 }
@@ -332,12 +347,14 @@
 
 .gallery-info h4 {
     font-size: 25px;
+    font-family: "Comfortaa", sans-serif;
     color: #333;
     margin: 5px 0;
   }
 
   .gallery-info p {
     font-size: 20px;
+    font-family: "Comfortaa", sans-serif;
     color: #666;
   }
 
@@ -366,12 +383,14 @@
 
 .equipment-details-modal .equipment-title {
   font-size: 32px;
+  font-family: "Comfortaa", sans-serif;
   color: #ffffff;
   margin-bottom: 10px;
 }
 
 .equipment-details-modal .equipment-caption {
   font-style: italic;
+  font-family: "Comfortaa", sans-serif;
   color: #acd05d;
   font-size: 24px;
   margin-bottom: 20px;
@@ -379,23 +398,27 @@
 
 .equipment-details-modal .equipment-details {
   font-size: 21px;
+  font-family: "Comfortaa", sans-serif;
   color: #ecaf16;
   margin-bottom: 20px;
 }
 .equipment-details-modal .equipment-specs {
     font-size: 21px;
+    font-family: "Comfortaa", sans-serif;
     color: #efce56;
     margin-bottom: 20px;
   }
 
   .equipment-details-modal .equipment-category {
     font-size: 21px;
+    font-family: "Comfortaa", sans-serif;
     color: #27e0a3;
     margin-bottom: 20px;
   }
 
   .equipment-details-modal .equipment-weight{
     font-size: 21px;
+    font-family: "Comfortaa", sans-serif;
     color: #6aeff6;
     margin-bottom: 20px;
   }
@@ -407,6 +430,7 @@
   padding: 10px 20px;
   color: rgb(255, 255, 255);
   font-size: 16px;
+  font-family: "Comfortaa", sans-serif;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -430,6 +454,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     font-weight:italic;
+    font-family: "Comfortaa", sans-serif;
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -440,6 +465,7 @@
     opacity: 0.9;
     font-style: italic;
     font-weight: bold;
+    font-family: "Comfortaa", sans-serif;
 }
 
 /* 🎥 Video Section */
@@ -479,6 +505,7 @@
     padding: 10px;
     text-align: center;
     font-size: 1rem;
+    font-family: "Comfortaa", sans-serif;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
@@ -514,6 +541,7 @@
   .brands-title {
     font-size: 24px;
     font-weight: bold;
+    font-family: "Comfortaa", sans-serif;
     margin-bottom: 20px;
   }
   
@@ -576,6 +604,7 @@
     border: none;
     padding: 10px;
     font-size: 24px;
+    font-family: "Comfortaa", sans-serif;
     cursor: pointer;
     border-radius: 50%;
     transition: background 0.3s ease-in-out;
@@ -602,6 +631,7 @@
   
     .brand-nav {
       font-size: 20px;
+      font-family: "Comfortaa", sans-serif;
       padding: 8px;
     }
   }
@@ -612,7 +642,7 @@
     color: #fff; /* White text */
     padding: 15px 0;
     text-align: center;
-    font-family: Arial, sans-serif;
+   font-family: "Comfortaa", sans-serif;
   }
   
   .footer-container {
@@ -627,6 +657,7 @@
     align-items: center;
     gap: 20px;
     font-size: 16px;
+    font-family: "Comfortaa", sans-serif;
   }
   
   .icon {
@@ -645,6 +676,7 @@
   .copyright {
     font-size: 14px;
     opacity: 0.8;
+    font-family: "Comfortaa", sans-serif;
   }
   .mute-button {
     background-color: rgba(134, 133, 130, 0.7);
@@ -653,6 +685,7 @@
     padding: 8px 12px;
     cursor: pointer;
     font-size: 14px;
+    font-family: "Comfortaa", sans-serif;
     margin-top: 5px;
     border-radius: 5px;
   }

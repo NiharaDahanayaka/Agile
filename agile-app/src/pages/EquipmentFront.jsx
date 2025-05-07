@@ -5,6 +5,7 @@ import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 
 
+
 import "./EquipmentFront.css";
 
 const EquipmentFront = () => {
